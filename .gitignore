@@ -1,0 +1,30 @@
+
+# Mac OS
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+*run.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# GCP Service Account Keys
+# This pattern matches any file starting with team- and ending in .json
+# In your case: team-485203-aa37d5704a91.json
+team-*.json
+service-account-key.json
+secrets.json
+
+# Local Configuration Overrides
+# It's common to ignore application.properties if it contains sensitive paths
+# For now, commit it carefully, but often projects ignore:
+# src/main/resources/application.properties
+
+# Logs
+logs/
+*.log
